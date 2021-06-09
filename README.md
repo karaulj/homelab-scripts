@@ -1,7 +1,7 @@
 # homelab-scripts
 Useful "scripts" for managing a Linux server running Docker apps.
 
-All scripts in this repo must be in the same directory and included in your PATH.
+All scripts in this repo must be included in your PATH.
 
 ## ha-ls
 If you decided to install Home Assistant *Supervised* through the [official installer](https://github.com/home-assistant/supervised-installer), and therefore can't start/stop the application via docker-compose, `ha-up` and `ha-down` provide the same functionality. `ha-ls` returns all HA Supervised containers (including addons) and is used as input for for `ha-up` and `ha-down`.
