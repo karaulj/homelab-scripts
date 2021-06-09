@@ -1,0 +1,3 @@
+#!/bin/bash
+
+docker container ls --filter name='addon_*' --filter name='hassio_*' --filter name='homeassistant' $@

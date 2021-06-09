@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# first Home Assistant
+echo "Stopping HA..."
+./ha-down
+
+# then the rest
+echo "Stopping containers..."
+docker-compose -f /docker/docker-compose.yaml down
