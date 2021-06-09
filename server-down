@@ -2,7 +2,7 @@
 
 # first Home Assistant
 echo "Stopping HA..."
-./ha-down
+ha-down
 
 # then the rest
 echo "Stopping containers..."
