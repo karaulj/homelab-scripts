@@ -21,6 +21,9 @@ All additional args are passed to the underlying `docker container ls` command. 
 docker-ls -aq    # list all Docker containers (not just those that are running) and only print their container ID's.
 ```
 
+## docker-pull
+Pulls the latest images for all Docker containers in `/docker/docker-compose.yaml`. Should only be called after `docker-down`.
+
 ## docker-up
 Starts all Docker containers in `/docker/docker-compose.yaml`.
 
