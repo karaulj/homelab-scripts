@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# just a convenience for docker right now
+docker-ls
