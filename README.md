@@ -13,7 +13,9 @@ export PATH="$PATH:/scripts"
 Stops all Docker containers in `/docker/docker-compose.yaml`.
 
 ## docker-ls
-List all running Docker containers (not just in `/docker/docker-compose.yaml`). All additional args are passed to the underlying `docker container ls` command.
+List all running Docker containers (not just in `/docker/docker-compose.yaml`).
+
+All additional args are passed to the underlying `docker container ls` command. For example:
 
 ```
 docker-ls -aq    # list all Docker containers (not just those that are running) and only print their container ID's.
