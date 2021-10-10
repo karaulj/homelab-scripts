@@ -6,4 +6,4 @@ ha-down
 
 # then the rest
 echo "Stopping containers..."
-docker-compose -f /docker/docker-compose.yaml down
+docker-down
