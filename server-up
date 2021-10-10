@@ -2,7 +2,7 @@
 
 # first docker
 echo "Starting containers..."
-docker-compose -f /docker/docker-compose.yaml up -d
+docker-up
 
 # then Home Assistant
 echo "Starting HA..."
