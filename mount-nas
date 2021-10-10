@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# 32kb read/write chunk size, NFSv4.1
+sudo mount -t nfs -o rsize=32768,wsize=32768,nfsvers=4.1 alphabetrium:/volume1/public /nas
