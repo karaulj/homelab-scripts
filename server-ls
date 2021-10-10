@@ -1,7 +1,4 @@
 #!/bin/bash
 
-# first docker
+# just a convenience for docker right now
 docker-ls
-
-# then HA
-ha-ls
